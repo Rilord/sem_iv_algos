@@ -1,0 +1,162 @@
+[
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/implot -I/Users/kodor/proj/algos/lab1/external/glew/include -I/Users/kodor/proj/algos/lab1/external/glfw/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/implot.dir/external/implot/implot_items.cpp.o -c /Users/kodor/proj/algos/lab1/external/implot/implot_items.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/external/implot/implot_items.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/implot -I/Users/kodor/proj/algos/lab1/external/glew/include -I/Users/kodor/proj/algos/lab1/external/glfw/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/implot.dir/external/implot/implot.cpp.o -c /Users/kodor/proj/algos/lab1/external/implot/implot.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/external/implot/implot.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/implot -I/Users/kodor/proj/algos/lab1/external/glew/include -I/Users/kodor/proj/algos/lab1/external/glfw/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/implot.dir/external/imgui/imgui.cpp.o -c /Users/kodor/proj/algos/lab1/external/imgui/imgui.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/external/imgui/imgui.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/implot -I/Users/kodor/proj/algos/lab1/external/glew/include -I/Users/kodor/proj/algos/lab1/external/glfw/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/implot.dir/external/imgui/imgui_draw.cpp.o -c /Users/kodor/proj/algos/lab1/external/imgui/imgui_draw.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/external/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/implot -I/Users/kodor/proj/algos/lab1/external/glew/include -I/Users/kodor/proj/algos/lab1/external/glfw/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/implot.dir/external/imgui/imgui_widgets.cpp.o -c /Users/kodor/proj/algos/lab1/external/imgui/imgui_widgets.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/external/imgui/imgui_widgets.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/implot -I/Users/kodor/proj/algos/lab1/external/glew/include -I/Users/kodor/proj/algos/lab1/external/glfw/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/implot.dir/external/imgui/imgui_impl_glfw.cpp.o -c /Users/kodor/proj/algos/lab1/external/imgui/imgui_impl_glfw.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/external/imgui/imgui_impl_glfw.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/implot -I/Users/kodor/proj/algos/lab1/external/glew/include -I/Users/kodor/proj/algos/lab1/external/glfw/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/implot.dir/external/imgui/imgui_impl_opengl3.cpp.o -c /Users/kodor/proj/algos/lab1/external/imgui/imgui_impl_opengl3.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/external/imgui/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/glew/include -I/Users/kodor/proj/algos/lab1/external/glfw/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/imgui.dir/external/imgui/imgui.cpp.o -c /Users/kodor/proj/algos/lab1/external/imgui/imgui.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/external/imgui/imgui.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/glew/include -I/Users/kodor/proj/algos/lab1/external/glfw/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/imgui.dir/external/imgui/imgui_draw.cpp.o -c /Users/kodor/proj/algos/lab1/external/imgui/imgui_draw.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/external/imgui/imgui_draw.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/glew/include -I/Users/kodor/proj/algos/lab1/external/glfw/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/imgui.dir/external/imgui/imgui_widgets.cpp.o -c /Users/kodor/proj/algos/lab1/external/imgui/imgui_widgets.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/external/imgui/imgui_widgets.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/glew/include -I/Users/kodor/proj/algos/lab1/external/glfw/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/imgui.dir/external/imgui/imgui_impl_glfw.cpp.o -c /Users/kodor/proj/algos/lab1/external/imgui/imgui_impl_glfw.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/external/imgui/imgui_impl_glfw.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/glew/include -I/Users/kodor/proj/algos/lab1/external/glfw/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/imgui.dir/external/imgui/imgui_impl_opengl3.cpp.o -c /Users/kodor/proj/algos/lab1/external/imgui/imgui_impl_opengl3.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/external/imgui/imgui_impl_opengl3.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/implot -I/Users/kodor/proj/algos/lab1/external/glew/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/lab1.dir/src/hermite.cpp.o -c /Users/kodor/proj/algos/lab1/src/hermite.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/src/hermite.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/implot -I/Users/kodor/proj/algos/lab1/external/glew/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/lab1.dir/src/main.cpp.o -c /Users/kodor/proj/algos/lab1/src/main.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/src/main.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/implot -I/Users/kodor/proj/algos/lab1/external/glew/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/lab1.dir/src/newton.cpp.o -c /Users/kodor/proj/algos/lab1/src/newton.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/src/newton.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/implot -I/Users/kodor/proj/algos/lab1/external/glew/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/lab1.dir/src/table.cpp.o -c /Users/kodor/proj/algos/lab1/src/table.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/src/table.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/c++  -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/imgui -I/Users/kodor/proj/algos/lab1/external/implot -I/Users/kodor/proj/algos/lab1/external/glew/include  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -std=gnu++17 -o CMakeFiles/lab1.dir/src/ui.cpp.o -c /Users/kodor/proj/algos/lab1/src/ui.cpp",
+  "file": "/Users/kodor/proj/algos/lab1/src/ui.cpp"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1/external/glfw/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/glfw/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.o -c /Users/kodor/proj/algos/lab1/external/glfw/src/context.c",
+  "file": "/Users/kodor/proj/algos/lab1/external/glfw/src/context.c"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1/external/glfw/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/glfw/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.o -c /Users/kodor/proj/algos/lab1/external/glfw/src/init.c",
+  "file": "/Users/kodor/proj/algos/lab1/external/glfw/src/init.c"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1/external/glfw/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/glfw/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.o -c /Users/kodor/proj/algos/lab1/external/glfw/src/input.c",
+  "file": "/Users/kodor/proj/algos/lab1/external/glfw/src/input.c"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1/external/glfw/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/glfw/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.o -c /Users/kodor/proj/algos/lab1/external/glfw/src/monitor.c",
+  "file": "/Users/kodor/proj/algos/lab1/external/glfw/src/monitor.c"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1/external/glfw/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/glfw/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.o -c /Users/kodor/proj/algos/lab1/external/glfw/src/vulkan.c",
+  "file": "/Users/kodor/proj/algos/lab1/external/glfw/src/vulkan.c"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1/external/glfw/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/glfw/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.o -c /Users/kodor/proj/algos/lab1/external/glfw/src/window.c",
+  "file": "/Users/kodor/proj/algos/lab1/external/glfw/src/window.c"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1/external/glfw/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/glfw/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_init.m.o -c /Users/kodor/proj/algos/lab1/external/glfw/src/cocoa_init.m",
+  "file": "/Users/kodor/proj/algos/lab1/external/glfw/src/cocoa_init.m"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1/external/glfw/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/glfw/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_joystick.m.o -c /Users/kodor/proj/algos/lab1/external/glfw/src/cocoa_joystick.m",
+  "file": "/Users/kodor/proj/algos/lab1/external/glfw/src/cocoa_joystick.m"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1/external/glfw/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/glfw/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_monitor.m.o -c /Users/kodor/proj/algos/lab1/external/glfw/src/cocoa_monitor.m",
+  "file": "/Users/kodor/proj/algos/lab1/external/glfw/src/cocoa_monitor.m"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1/external/glfw/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/glfw/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_window.m.o -c /Users/kodor/proj/algos/lab1/external/glfw/src/cocoa_window.m",
+  "file": "/Users/kodor/proj/algos/lab1/external/glfw/src/cocoa_window.m"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1/external/glfw/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/glfw/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/cocoa_time.c.o -c /Users/kodor/proj/algos/lab1/external/glfw/src/cocoa_time.c",
+  "file": "/Users/kodor/proj/algos/lab1/external/glfw/src/cocoa_time.c"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1/external/glfw/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/glfw/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_thread.c.o -c /Users/kodor/proj/algos/lab1/external/glfw/src/posix_thread.c",
+  "file": "/Users/kodor/proj/algos/lab1/external/glfw/src/posix_thread.c"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1/external/glfw/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/glfw/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/nsgl_context.m.o -c /Users/kodor/proj/algos/lab1/external/glfw/src/nsgl_context.m",
+  "file": "/Users/kodor/proj/algos/lab1/external/glfw/src/nsgl_context.m"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1/external/glfw/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/glfw/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/egl_context.c.o -c /Users/kodor/proj/algos/lab1/external/glfw/src/egl_context.c",
+  "file": "/Users/kodor/proj/algos/lab1/external/glfw/src/egl_context.c"
+},
+{
+  "directory": "/Users/kodor/proj/algos/lab1/external/glfw/src",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -D_GLFW_USE_CONFIG_H -I/Users/kodor/proj/algos/lab1/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/System/Library/Frameworks -I/Users/kodor/proj/algos/lab1/external/glfw/include -I/Users/kodor/proj/algos/lab1/external/glfw/src  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /Users/kodor/proj/algos/lab1/external/glfw/src/osmesa_context.c",
+  "file": "/Users/kodor/proj/algos/lab1/external/glfw/src/osmesa_context.c"
+}
+]
