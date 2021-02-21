@@ -17,8 +17,6 @@ typedef struct result_
     
 } result;
 
-
-
 typedef struct funcTable_
 {
     std::vector<record> records;
@@ -35,7 +33,6 @@ class interpolation
         void tableSlice(double x);
         void invertTable();
         void tableDuplicate();
-        void tablePrint();
         void setPolynomSize(unsigned int polynomSize);
         /* diffs methods */ 
         void setSeparateDiffs();

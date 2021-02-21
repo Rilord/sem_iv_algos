@@ -8,14 +8,6 @@
 #include <math.h>
 
 template<typename T>
-void print_vector(std::vector<T> const &v)
-{
-    for (int i = 0; i < v.size(); i++)
-    {
-        std::cout << v[i] << " ["  << i << "]"<<  "\n";
-    }
-}
-template<typename T>
 std::vector<T> sub(std::vector<T> const &v, int begin, int end)
 {
     auto first = v.begin() + begin;
@@ -145,7 +137,7 @@ void interpolation::setSeparateDiffs()
         next.clear();
         for (unsigned int t = 0; t < y.size() - 1; ++t)
         {
-            next.push_back( ( y[ t + 1 ] - y[ t ] ) / ( x[ ( t + i ) ] - x[ t ] ));
+            next.push_back( ( y[t + 1] - y[t] ) / ( x[( t + i )] - x[t] ));
         }
 
         y = next; newtonDiffs.push_back(y[0]);
@@ -233,8 +225,6 @@ double interpolation::Newtonf(double x)
     {
         vl = newtonDiffs[i];
 
-
-
         for (int j = 0; j < i; j++)
         {
             vl *= (x - table.records[j].x);
@@ -262,18 +252,6 @@ double interpolation::Hermitef(double x)
 
     }
     return _y;
-}
-
-void interpolation::tablePrint()
-{
-
-    std::cout << "\n==========\n\n";
-
-    for (auto &j: this->table.records)
-    {
-        std::cout << "|" << j.x << "|" << j.y << "|" << j.dy << "|" << "\n";
-    }
-    std::cout << "\n==========\n\n";
 }
 
 void interpolation::setPolynomSize(unsigned int polynomSize)
