@@ -8,7 +8,7 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/Modules/")
 
-set(app_name "lab1")
+set(app_name "lab2")
 add_library(stb INTERFACE)
 
 
@@ -32,10 +32,12 @@ endif()
 
 # GLEW 
 
+
 find_library(GLEW_DYLIB GLEW ${CMAKE_SOURCE_DIR}/external/glew/lib)
 add_library(glew SHARED IMPORTED)
-set_property(TARGET glew PROPERTY IMPORTED_LOCATION ${CMAKE_SOURCE_DIR}/external/glew/lib/libGLEW.2.2.0.dylib)
+set_property(TARGET glew PROPERTY IMPORTED_LOCATION ${CMAKE_SOURCE_DIR}/external/glew/lib/libGLEW.so.2.2.0)
 set_property(TARGET glew PROPERTY IMPORTED_IMPLIB ${GLEW_DYLIB})
+
 
 ######
 
@@ -136,6 +138,6 @@ add_executable(${app_name}  ${app_srcs})
 target_include_directories(${app_name} PUBLIC ${app_includes})
 
 
-target_link_libraries(${app_name} ${app_libs})
+target_link_libraries(${app_name} ${app_libs} glew)
 
 endif ()

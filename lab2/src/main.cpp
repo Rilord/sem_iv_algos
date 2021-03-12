@@ -42,6 +42,14 @@ int main(int argc, char *argv[])
     float highDPIscaleFactor = 1.0;
 #endif
 
+#ifdef __linux__
+    const char *glsl_version = "#version 330";
+    glfwWindowHint (GLFW_CONTEXT_VERSION_MAJOR, 4);
+    glfwWindowHint (GLFW_CONTEXT_VERSION_MINOR, 3);
+    glfwWindowHint (GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
+    float highDPIscaleFactor = 1.0;
+#endif
+
     GLFWwindow* window;
 
     window = glfwCreateWindow(800, 600, "lab1", NULL, NULL);
@@ -94,17 +102,15 @@ int main(int argc, char *argv[])
     ImPlot::CreateContext();
     /* IMPLOT */
 
-    int polynomSize = 1;
-    double x;
-    
-    result tmp;
-
     std::string selectedFile;
 
     std::vector<result> res;
 
+    int polynomDimensions[2] = { 0, 0 };
 
-    interpolation obj(1);
+    float arg[2] = { 0.f, 0.f };
+
+    interpolation task(1, 1, dot { 0, 0 });
 
     while (!glfwWindowShouldClose(window))
     {
@@ -117,49 +123,24 @@ int main(int argc, char *argv[])
         ImGui::Begin("Lab");
 
 
-        ImGui::InputInt("Polynom Size", &polynomSize);
+        ImGui::InputInt2("Polynom Size: nx, ny", polynomDimensions);
 
-        ImGui::InputDouble("X", &x);
+        ImGui::InputFloat2("x, y: ", arg);
 
-        if (ImGui::Button("Newton"))
+        if (ImGui::Button("Interpolate"))
         {
-            obj.setPolynomSize(polynomSize);
-            obj.loadFile(selectedFile);
-            obj.tableSlice(x);
-            tmp.y = obj.Newtonf(x);
-            tmp.x = x;
-            tmp.type = "Newton";
-            tmp.polynomSize = polynomSize;
+            task.setPolynomSize(polynomDimensions[0], polynomDimensions[1]);
+            task.setArg(dot { arg[0], arg[1] });
+            task.loadFile(selectedFile);
+            result tmp;
+            tmp.nx = polynomDimensions[0], tmp.ny = polynomDimensions[1];
+            tmp.x = arg[0], tmp.y = arg[1];
+            tmp.z = task.getPolynomial();
+
             res.push_back(tmp);
+
         }
 
-        if (ImGui::Button("Hermite"))
-        {
-            obj.setPolynomSize(polynomSize);
-            obj.loadFile(selectedFile);
-            obj.tableSlice(x);
-            tmp.y = obj.Hermitef(x);
-            tmp.x = x;
-            tmp.type = "Hermite";
-            tmp.polynomSize = polynomSize;
-            res.push_back(tmp);
-        }
-
-
-        if (ImGui::Button("Root"))
-        {
-            obj.setPolynomSize(polynomSize);
-            obj.loadFile(selectedFile);
-            obj.tableSlice(x);
-            obj.invertTable();
-
-            tmp.y = obj.Newtonf(0.0);
-            tmp.x = 0.0f;
-            tmp.type = "Root";
-
-            tmp.polynomSize = polynomSize;
-            res.push_back(tmp);
-        }
 
         if (ImGui::Button("Clear table"))
         {
@@ -184,8 +165,11 @@ int main(int argc, char *argv[])
         }
 
         ImGui::BeginChild("Scrolling");
-        for (int n = 0; n < res.size(); n++)
-            ImGui::Text("[%d] Type: %7s Polynom size: %d Result: y(%7lf) = %7lf", n + 1, (res[n].type).c_str(), res[n].polynomSize, res[n].x, res[n].y);
+        for (int n = 0; n < res.size(); n++) {
+            ImGui::Text("nx: %d, ny: %d, answer = (%f, %f, %f)", 
+                    res[n].nx, res[n].ny, 
+                    res[n].x, res[n].y, res[n].z);
+        }
         ImGui::EndChild();
 
         ImGui::End();

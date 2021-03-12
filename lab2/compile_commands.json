@@ -61,12 +61,12 @@
 },
 {
   "directory": "/home/kodor/proj/sem_iv_algos/lab2",
-  "command": "/usr/bin/c++  -I/home/kodor/proj/sem_iv_algos/lab2/include -I/home/kodor/proj/sem_iv_algos/lab2/external/glfw/include -I/home/kodor/proj/sem_iv_algos/lab2/external/imgui -I/home/kodor/proj/sem_iv_algos/lab2/external/implot -I/home/kodor/proj/sem_iv_algos/lab2/external/glew/include -std=gnu++17 -o CMakeFiles/lab1.dir/src/hermite.cpp.o -c /home/kodor/proj/sem_iv_algos/lab2/src/hermite.cpp",
+  "command": "/usr/bin/c++  -I/home/kodor/proj/sem_iv_algos/lab2/include -I/home/kodor/proj/sem_iv_algos/lab2/external/glfw/include -I/home/kodor/proj/sem_iv_algos/lab2/external/imgui -I/home/kodor/proj/sem_iv_algos/lab2/external/implot -I/home/kodor/proj/sem_iv_algos/lab2/external/glew/include -std=gnu++17 -o CMakeFiles/lab2.dir/src/hermite.cpp.o -c /home/kodor/proj/sem_iv_algos/lab2/src/hermite.cpp",
   "file": "/home/kodor/proj/sem_iv_algos/lab2/src/hermite.cpp"
 },
 {
   "directory": "/home/kodor/proj/sem_iv_algos/lab2",
-  "command": "/usr/bin/c++  -I/home/kodor/proj/sem_iv_algos/lab2/include -I/home/kodor/proj/sem_iv_algos/lab2/external/glfw/include -I/home/kodor/proj/sem_iv_algos/lab2/external/imgui -I/home/kodor/proj/sem_iv_algos/lab2/external/implot -I/home/kodor/proj/sem_iv_algos/lab2/external/glew/include -std=gnu++17 -o CMakeFiles/lab1.dir/src/main.cpp.o -c /home/kodor/proj/sem_iv_algos/lab2/src/main.cpp",
+  "command": "/usr/bin/c++  -I/home/kodor/proj/sem_iv_algos/lab2/include -I/home/kodor/proj/sem_iv_algos/lab2/external/glfw/include -I/home/kodor/proj/sem_iv_algos/lab2/external/imgui -I/home/kodor/proj/sem_iv_algos/lab2/external/implot -I/home/kodor/proj/sem_iv_algos/lab2/external/glew/include -std=gnu++17 -o CMakeFiles/lab2.dir/src/main.cpp.o -c /home/kodor/proj/sem_iv_algos/lab2/src/main.cpp",
   "file": "/home/kodor/proj/sem_iv_algos/lab2/src/main.cpp"
 },
 {

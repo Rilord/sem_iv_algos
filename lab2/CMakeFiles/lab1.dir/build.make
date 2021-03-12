@@ -118,10 +118,10 @@ lab1: libimgui.a
 lab1: libimplot.a
 lab1: /usr/lib/libGL.so
 lab1: /usr/lib/libGLU.so
+lab1: external/glew/lib/libGLEW.so.2.2.0
 lab1: /usr/lib/librt.so
 lab1: /usr/lib/libm.so
 lab1: /usr/lib/libX11.so
-lab1: external/glew/lib/libGLEW.2.2.0.dylib
 lab1: CMakeFiles/lab1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kodor/proj/sem_iv_algos/lab2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable lab1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab1.dir/link.txt --verbose=$(VERBOSE)

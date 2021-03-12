@@ -1,12 +1,12 @@
-/home/kodor/proj/sem_iv_algos/lab2/CMakeFiles/install/local.dir
 /home/kodor/proj/sem_iv_algos/lab2/CMakeFiles/install.dir
 /home/kodor/proj/sem_iv_algos/lab2/CMakeFiles/list_install_components.dir
 /home/kodor/proj/sem_iv_algos/lab2/CMakeFiles/rebuild_cache.dir
 /home/kodor/proj/sem_iv_algos/lab2/CMakeFiles/edit_cache.dir
+/home/kodor/proj/sem_iv_algos/lab2/CMakeFiles/install/local.dir
+/home/kodor/proj/sem_iv_algos/lab2/CMakeFiles/lab2.dir
 /home/kodor/proj/sem_iv_algos/lab2/CMakeFiles/install/strip.dir
 /home/kodor/proj/sem_iv_algos/lab2/CMakeFiles/implot.dir
 /home/kodor/proj/sem_iv_algos/lab2/CMakeFiles/imgui.dir
-/home/kodor/proj/sem_iv_algos/lab2/CMakeFiles/lab1.dir
 /home/kodor/proj/sem_iv_algos/lab2/external/glfw/CMakeFiles/install/strip.dir
 /home/kodor/proj/sem_iv_algos/lab2/external/glfw/CMakeFiles/install/local.dir
 /home/kodor/proj/sem_iv_algos/lab2/external/glfw/CMakeFiles/install.dir

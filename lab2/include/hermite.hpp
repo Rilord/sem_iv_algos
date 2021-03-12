@@ -14,15 +14,21 @@ typedef struct result_struct {
 } result;
 
 typedef struct funcTable_struct {
-    std::vector<std::vector<dot>> records;
+    std::vector<std::vector<double>> records;
 } funcTable;
 
 class newtonPolynom{
     public:
-        newtonPolynom();
-        void build();
-
+        newtonPolynom(unsigned int n, std::vector<double> values, 
+                std::vector<double> args, double x);
+        double build();
     private:
+        double x;
+        unsigned int n;
+        std::vector<double> values; 
+        std::vector<double> args; 
+        std::vector<double> diffs;
+        void calculate();
 
 };
 
@@ -36,33 +42,32 @@ class interpolation {
         /* table methods */
 
         void printTable();
-        void loadFile(std::string name);
+        void loadFile(const std::string name);
         void getBase(dot arg);
-        void setPolynomSize(unsigned int polynomSize);
+        void setPolynomSize(unsigned int nx, unsigned int ny);
+        void setArg(dot arg);
         void tableSplit();
         /* diffs methods */ 
 
        /* polynom funcs */
-        void getPolynomial();
+        double getPolynomial();
 
-        double Newtonf(double x);
-        double multiNewton();
 
     private:
         unsigned int nx, ny;
         dot arg;
 
         funcTable table;
-        std::vector<dot> x_args;
-        std::vector<dot> y_args;
+        std::vector<double> x_args;
+        std::vector<double> y_args;
 
-        std::vector<dot> base_x;
-        std::vector<dot> base_y;
+        std::vector<double> base_x;
+        std::vector<double> base_y;
 
-        std::vector<std::vector<double>> newton;
 
-        std::vector<std::vector<dot>> matrix;
-        std::vector<std::vector<dot>> temp, first, second, third;
+        std::vector<std::vector<double>> matrix;
+
+        double answer;
 
 };
 #endif
