@@ -35,7 +35,7 @@ endif()
 
 find_library(GLEW_DYLIB GLEW ${CMAKE_SOURCE_DIR}/external/glew/lib)
 add_library(glew SHARED IMPORTED)
-set_property(TARGET glew PROPERTY IMPORTED_LOCATION ${CMAKE_SOURCE_DIR}/external/glew/lib/libGLEW.so.2.2.0)
+set_property(TARGET glew PROPERTY IMPORTED_LOCATION ${CMAKE_SOURCE_DIR}/external/glew/lib/libGLEW.dylib)
 set_property(TARGET glew PROPERTY IMPORTED_IMPLIB ${GLEW_DYLIB})
 
 

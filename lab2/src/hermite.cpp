@@ -67,7 +67,7 @@ void interpolation::getBase(dot arg) {
             }
     );
 
-    base_x = std::vector (base_x.begin(), base_x.begin() + nx);
+    base_x = std::vector (base_x.begin(), base_x.begin() + nx + 1);
 
     std::sort(base_x.begin(), base_x.end(),
             [] (double a, double b) {
@@ -85,7 +85,7 @@ void interpolation::getBase(dot arg) {
     );
 
 
-    base_y = std::vector (base_y.begin(), base_y.begin() + ny);
+    base_y = std::vector (base_y.begin(), base_y.begin() + ny + 1);
 
     std::sort(base_y.begin(), base_y.end(),
             [] (double a, double b) {
@@ -104,8 +104,8 @@ void interpolation::tableSplit() {
 
     matrix.resize(table.records.size() - 1);
 
-    for (auto i = 0; i < 10; i++) {
-        matrix[i].resize(table.records[0].size());
+    for (auto i = 0; i < table.records.size() - 1; i++) {
+        matrix[i].resize(table.records[1].size() - 1);
     }
 
     x_args = table.records[0];
@@ -135,13 +135,6 @@ double interpolation::getPolynomial() {
 
     base_matrix.resize(ny + 1);
 
-    for (auto row: this->matrix) {
-        for (auto e: row) {
-            std::cout << e << " ";
-        }
-        std::cout << "\n";
-    }
-
     for (auto &row: base_matrix) {
         row.resize(nx + 1);
     }
@@ -152,32 +145,19 @@ double interpolation::getPolynomial() {
     int startY = std::find(y_args.begin(), 
                 y_args.end(), base_y[0]) - y_args.begin();
 
-    std::cout << startX << " " << startY << "\n";
-
     for (int i = startY, k = 0; i < startY + ny + 1; i++, k++) {
 
         for (int j = startX, l = 0; j < startX + nx + 1; j++, l++) {
             base_matrix[k][l] = matrix[i][j];  
         }
     }
-    std::cout << "matrix\n"; 
 
-    for (auto j: base_matrix) {
-        for (auto k: j) {
-            std::cout << k << " ";
-        }
-        std::cout << "\n";
-    }
+    for (auto i = 0; i < base_matrix.size(); i++) {
 
-    std::cout << "matrix\n"; 
-
-    for (auto i = 0; i < ny; i++) {
         coefs.push_back(newtonPolynom(nx, base_matrix[i], base_x, arg.x).build());
     }
 
     answer = newtonPolynom(ny, coefs, base_y, arg.y).build();
-
-    std::cout << answer << "\n";
 
     return answer;
 }
@@ -201,38 +181,36 @@ newtonPolynom::newtonPolynom(unsigned int n, std::vector<double> values,
 
 double newtonPolynom::build() {
 
+    diffs.clear();
     std::vector<double> next;
     std::vector<double> y (values.begin(), values.end());
 
-    size_t size = values.size();
+    diffs.push_back(y[0]);
 
-    std::cout << size << "\n";
+    for (auto i = 1; i < values.size(); i++) {
 
-    double y0 = values[0], val = 0;
-
-    diffs.clear();
-
-    diffs.push_back(values[0]);
-
-    for (auto i = 1; i < size; i++) {
         next.clear();
         for (auto t = 0; t < y.size() - 1; t++) {
             next.push_back(
                     (y[t + 1] - y[t]) 
                     / 
-                    (args[t + 1] - args[t]));
+                    (args[t + i] - args[t]));
         }
         y = next; diffs.push_back(y[0]);
     }
 
-    for (auto i = 1; i < size + 1; i++) {
-        val = diffs[i];
 
+    double y0 = values[0];
+    double val = 0.0;
+
+    for (auto i = 1; i < diffs.size(); i++) {
+        val = diffs[i];
         for (auto j = 0; j < i; j++) {
-            val *= (this->x - args[j]);
+            val *= (x - args[j]);
         }
         y0 += val;
     }
+
 
     return y0;
 }

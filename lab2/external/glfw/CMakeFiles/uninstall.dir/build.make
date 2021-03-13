@@ -53,19 +53,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.19.0_1/bin/cmake
 
 # The command to remove a file.
-RM = /usr/bin/cmake -E rm -f
+RM = /usr/local/Cellar/cmake/3.19.0_1/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kodor/proj/sem_iv_algos/lab2
+CMAKE_SOURCE_DIR = /Users/kodor/proj/algos/lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kodor/proj/sem_iv_algos/lab2
+CMAKE_BINARY_DIR = /Users/kodor/proj/algos/lab2
 
 # Utility rule file for uninstall.
 
@@ -73,7 +73,7 @@ CMAKE_BINARY_DIR = /home/kodor/proj/sem_iv_algos/lab2
 include external/glfw/CMakeFiles/uninstall.dir/progress.make
 
 external/glfw/CMakeFiles/uninstall:
-	cd /home/kodor/proj/sem_iv_algos/lab2/external/glfw && /usr/bin/cmake -P /home/kodor/proj/sem_iv_algos/lab2/external/glfw/cmake_uninstall.cmake
+	cd /Users/kodor/proj/algos/lab2/external/glfw && /usr/local/Cellar/cmake/3.19.0_1/bin/cmake -P /Users/kodor/proj/algos/lab2/external/glfw/cmake_uninstall.cmake
 
 uninstall: external/glfw/CMakeFiles/uninstall
 uninstall: external/glfw/CMakeFiles/uninstall.dir/build.make
@@ -86,10 +86,10 @@ external/glfw/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/build
 
 external/glfw/CMakeFiles/uninstall.dir/clean:
-	cd /home/kodor/proj/sem_iv_algos/lab2/external/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
+	cd /Users/kodor/proj/algos/lab2/external/glfw && $(CMAKE_COMMAND) -P CMakeFiles/uninstall.dir/cmake_clean.cmake
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/clean
 
 external/glfw/CMakeFiles/uninstall.dir/depend:
-	cd /home/kodor/proj/sem_iv_algos/lab2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kodor/proj/sem_iv_algos/lab2 /home/kodor/proj/sem_iv_algos/lab2/external/glfw /home/kodor/proj/sem_iv_algos/lab2 /home/kodor/proj/sem_iv_algos/lab2/external/glfw /home/kodor/proj/sem_iv_algos/lab2/external/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kodor/proj/algos/lab2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kodor/proj/algos/lab2 /Users/kodor/proj/algos/lab2/external/glfw /Users/kodor/proj/algos/lab2 /Users/kodor/proj/algos/lab2/external/glfw /Users/kodor/proj/algos/lab2/external/glfw/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/glfw/CMakeFiles/uninstall.dir/depend
 
